@@ -6,6 +6,10 @@ use App\Entity\Book;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 use App\Controller\BookController;
+use Doctrine\Bundle\DoctrineBundle\Registry;
+use App\Repository\AuthorRepository;
+
+
 
 /**
  * @extends ServiceEntityRepository<Book>
